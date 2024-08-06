@@ -26,12 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
-//
-//
+// In the code above, we have declared a variable called number which is assigned a value of 1
+// We then increment the number by 1 using the increment operator (++)
+// we create a control structure to check the logic if the number is greater than 2,
+//  and if it evaluates to true, then we print to the console "Yes"
 //
 
 //CODE
@@ -48,10 +46,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared a variable name and the value was a string.
+// we then created a control structure to strictly verfify the name which is a string. If the name match the global variable name declared then the console will print the message in there.
+// If the name does not match the global variable name declared then the console will print the second message in the second statement. 
+
 
 //CODE
 /*
@@ -73,10 +71,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// There have been 2 varibles which one has been declared already the the second.
+// We are now strictly assigning  the value of 123 which is an integer to the variable code. 
+// We then created a control structure to check if the code is equal to 123. \
+// now we multiply the values of the variable code by 2 and stores it in the same variable container
+// So if code has values that are really integers, then multiply by 2
 //
+//  Then we have another logic to check if the new value of code (thus the currrent sum from the code*2) is greater than 250
+// If true then print to the console 'duper'.
+
+
 
 //CODE
 /*
@@ -95,6 +99,21 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+
+// WRITE YOUR DESCRIPTION HERE
+// We have 3 variables declared and assigned values to them. isStudent is a boolean value,
+// age is an integer and zip is an integer as well. We then created a control structure to 
+// check if the boolean value of isStudent is true and the value of zip is greater than 
+// 80000. If both conditions are met, then print to the console 'You're a 
+// student on the West Coast!'. If not, then we have another condition to check if the 
+// boolean value of isStudent is false or the value of age is less than 30. If
+// either of these conditions are met, then print to the console 'What are your hobbies?'. If not, 
+// then we have another condition to check if the boolean value of isStudent is true. If true
+// then print to the console 'Welcome to Prime!'. If not, then print to the console
+// 'How about the weather?'
+//  The order of the conditions is important here, because if the first condition is met, then
+//  the rest of the conditions will not be checked.
+
 
 
 
@@ -136,6 +155,13 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - mix is set to true, but the instructions say to set it to false. And the colors does not have their said values in the variable
+// Should be mix = false;
+// let colorOne = 'blue'; // Initial colorOne value
+let colorTwo = 'red'; // Initial colorTwo value
+let mix = false; // Corrected mix value
+
 
 if (mix === true) {
   colorOne = 'purple';
